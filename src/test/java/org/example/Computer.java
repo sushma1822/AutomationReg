@@ -1,5 +1,4 @@
 package org.example;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,6 +18,7 @@ public class Computer {
         driver.findElement(By.linkText("Desktops")).click();
         String actualText=driver.findElement(By.linkText("Build your own computer")).getText();
         System.out.println(actualText);
+
 
     }
 }

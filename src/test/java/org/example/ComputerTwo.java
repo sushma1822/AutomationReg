@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.concurrent.TimeUnit;
 public class ComputerTwo {
      static WebDriver driver;
-
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "C:\\soft\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
